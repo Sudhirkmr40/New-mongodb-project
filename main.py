@@ -17,3 +17,13 @@ data2 = {"name" : "tonystark", "surname": "iron man" , "profile": "nuclear weapo
 database = client['myinfo']
 collection = database["sudhir"]
 collection.insert_one(data2)
+#
+New_records = [
+ {"name" : "tonystark", "surname": "iron man" , "profile": "nuclear weapon scientist"},
+ {"name" : "chris", "surname": "hemsworth" , "profile": "thor"},
+{"name" : "ethan", "surname": "hunt" , "profile": "MIA"}]
+database = client['myinfo']
+collection = database["New_records"]
+collection.insert_many(New_records)
+
+
