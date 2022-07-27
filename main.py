@@ -18,6 +18,12 @@ database = client['myinfo']
 collection = database["sudhir"]
 collection.insert_one(data2)
 #
+sasasasa
+hasattr(sas
+        a
+sasasasas
+as
+asa)
 New_records = [
  {"name" : "tonystark", "surname": "iron man" , "profile": "nuclear weapon scientist"},
  {"name" : "chris", "surname": "hemsworth" , "profile": "thor"},
